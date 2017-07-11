@@ -6,7 +6,7 @@ modified: 2017-07-01T14:17:25-04:00
 categories: blog
 tags: [boids]
 image:
-  feature: blog/boids/boids_cover.png
+  feature: /blog/boids/boids_cover.png
 comments: true
 share: true
 ---
