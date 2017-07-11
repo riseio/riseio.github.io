@@ -48,7 +48,7 @@ Suppose A is stable and the Riccati equation
 $$\begin{align}
   A'\tilde{P} + \tilde{P}A + \tilde{P}BB'\tilde{P} + \tilde{Q} = 0
 \end{align}$$  
-has a symmetric solution $\tilde{P}$. i.e ($\tilde{P} = \tilde{P}'$).
+has a symmetric solution \\(\tilde{P}\\). i.e \\((\tilde{P} = \tilde{P}')\\).
 
 Lets also suppose \\(\tilde{Q} \geq Q \geq 0\\).   
 
@@ -56,7 +56,7 @@ Then the Riccati equation
 $$\begin{align}
   A'P + PA + PBB'P + Q = 0
 \end{align}$$  
-will have a unique strong solution P, where $0 \leq P \leq \tilde{P}$.
+will have a unique strong solution P, where \\(0 \leq P \leq \tilde{P}\\).
 </div>
 
 *Proof*  
