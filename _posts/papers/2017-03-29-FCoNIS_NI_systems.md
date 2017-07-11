@@ -2,7 +2,7 @@
 layout: post
 title: "Negative-Imaginary Systems"
 modified:
-categories: blog
+categories: papers
 excerpt:
 tags: []
 image:
