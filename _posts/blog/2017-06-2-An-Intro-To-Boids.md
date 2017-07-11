@@ -17,6 +17,7 @@ share: true
 
 yep an intro is going to go here
 
+{% include boids.html %}
 
 ## Code for each rule
 
