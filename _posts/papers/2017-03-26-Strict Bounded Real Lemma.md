@@ -2,7 +2,7 @@
 layout: post
 title: "The Strict Bounded Real Lemma"
 modified:
-categories: blog
+categories: papers
 excerpt:
 tags: []
 image:
@@ -12,7 +12,7 @@ date: 2017-03-26T08:08:50-04:00
 
 ---
 
-This article presents the strengthened version of the Bounded Real Lemma found in "A first principles solution to the non-singular $ H^{\infty} $ control Problem."
+This article presents the strengthened version of the Bounded Real Lemma found in "A first principles solution to the non-singular \\( H^{\infty} \\) control Problem."
 The result gives a strict $H^\infty$ norm bound for non-minimal realizations.
 
 ## 2. The Strict Bounded Real Lemma
