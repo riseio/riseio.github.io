@@ -1,6 +1,6 @@
 ---
 layout: page
-title: controlphd
+title: Control and Linear Systems Theory
 excerpt: "An archive of papers related posts sorted by date."
 search_omit: true
 ---
