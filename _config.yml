@@ -9,7 +9,7 @@ url: https://riseio.github.io.
 
 # Jekyll configuration
 encoding: UTF-8
-permalink:   /:categories/:title/
+permalink:   :categories/:title/
 markdown:    kramdown
 highlighter: rouge
 sass:
