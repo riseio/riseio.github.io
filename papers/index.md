@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Papers
+title: papers
 excerpt: "An archive of papers related posts sorted by date."
 search_omit: true
 ---
