@@ -2,8 +2,7 @@
 layout: post
 title: "Negative-Imaginary Systems"
 modified:
-categories: papers
-excerpt:
+categories: controlphd
 tags: []
 image:
   feature:

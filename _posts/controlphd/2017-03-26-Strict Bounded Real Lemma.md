@@ -2,7 +2,7 @@
 layout: post
 title: "The Strict Bounded Real Lemma"
 modified:
-categories: papers
+categories: controlphd
 excerpt:
 tags: []
 image:
