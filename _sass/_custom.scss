@@ -1,0 +1,72 @@
+// a few niceties for lab/assignment content
+// ---------------------------------------------------
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+$infoColour: #f1c40f;
+$thinkColour: #3498db;
+$talkColour: #1abc9c;
+$doColour: #d35400;
+$extensionColour: #9b59b6;
+
+@mixin lab-content-box ($heading, $colour){
+    padding: 10px;
+
+    &::before {
+        background: $colour;
+        color: $background-color;
+        padding-left: 1em;
+        content: $heading;
+        display: block;
+        font-weight: 600;
+        margin-bottom: 1em;
+    }
+}
+
+#content {
+    .info-box {
+        @include lab-content-box("note", $infoColour);
+        background: lighten($infoColour, 25%);
+    }
+    .think-box {
+        @include lab-content-box("think", $thinkColour);
+        background: lighten($thinkColour, 30%);
+    }
+    .talk-box {
+        @include lab-content-box("talk", $talkColour);
+        background: lighten($talkColour, 40%);
+    }
+    .do-box {
+        @include lab-content-box("do", $doColour);
+        background: lighten($doColour, 35%);
+    }
+    .extension-box {
+        @include lab-content-box("extension", $extensionColour);
+        background: lighten($extensionColour, 30%);
+        border-color: $extensionColour;
+    }
+}
