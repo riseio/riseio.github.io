@@ -1,16 +1,16 @@
 # Site navigation links
 
 - title: About
-  url: about/
+  url: /about/
 
 - title: Tutorials
-  url: tutorials/
+  url: /tutorials/
 
 - title: Blog
-  url: blog/
+  url: /blog/
 
 - title: Control Theory
-  url: controlphd/
+  url: /controlphd/
 
 - title: Search
-  url: search/
+  url: /search/
