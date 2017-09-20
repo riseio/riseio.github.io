@@ -32,16 +32,15 @@ function preload() {
 }
 
 
-
 function setup() {
     var canvasDiv = document.getElementById('myCanvas');
     var width = canvasDiv.offsetWidth;
-    var sketchCanvas = createCanvas(400,height);
+    var sketchCanvas = createCanvas(800,800);
     console.log(sketchCanvas);
     sketchCanvas.parent("myCanvas");
+
     background_sound.setVolume(0.5);
     background_sound.loop(0, 1.1, 0.05)
-
     // any additional setup code goes here
     player = {
       x: width/2,
