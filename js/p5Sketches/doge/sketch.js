@@ -34,7 +34,11 @@ function preload() {
 
 
 function setup() {
-    createCanvas(400, windowHeight);
+    var canvasDiv = document.getElementById('myCanvas');
+    var width = canvasDiv.offsetWidth;
+    var sketchCanvas = createCanvas(400,height);
+    console.log(sketchCanvas);
+    sketchCanvas.parent("myCanvas");
     background_sound.setVolume(0.5);
     background_sound.loop(0, 1.1, 0.05)
 
